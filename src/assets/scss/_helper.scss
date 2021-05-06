@@ -1,0 +1,1429 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@font-face {
+  font-family: dinMedium;
+  src: url('../font/DIN\ Medium.ttf');
+}
+
+@font-face {
+  font-family: GothamBook;
+  src: url('../font/Gotham-Book.otf');
+}
+
+@font-face {
+  font-family: proximaReg;
+  src: url('../font/ProximaNova-Regular.otf');
+}
+
+@font-face {
+  font-family: proximaBold;
+  src: url('../font/Proxima\ Nova\ Bold.otf');
+}
+
+// HOME BACKGROUND
+.bg-join-event {
+  background: url("../img/home/bg-join-event.png");
+}
+
+@media only screen and (max-width: 1280px) {
+  .bg-join-event {
+    background: url("../img/home/bg-join-event.png");
+  }
+}
+
+// .bg-video {
+//   background: url("../img/home/bg-video.png");
+// }
+
+.bg-information {
+  background: url("../img/home/bg-information.png");
+}
+
+.bg-schedule {
+  background: url("../img/home/bg-schedule.png");
+}
+
+.bg-list-tournament {
+  // background: url("../img/home/bg-list-tournament.png");
+  background-color: #08243e;
+}
+
+// HOME BACKGROUND
+
+div {
+  color: #cccccc;
+}
+
+span {
+  color: #cccccc;
+}
+
+.title-all {
+  font-size: 62px;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 30px;
+  }
+}
+
+a {
+  font-family: proximaReg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: proximaReg;
+  color: #cccccc;
+
+}
+
+.GothamBook {
+  font-family: GothamBook;
+}
+
+.GothamBookBold {
+  font-family: GothamBook;
+  font-weight: bold;
+}
+
+.dinMedium{
+  font-family: dinMedium;
+}
+
+.boldProx {
+  font-family: proximaBold;
+}
+//HSL
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-float {
+  margin-top: 22px;
+}
+
+.center-content {
+  margin: 0 auto;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.bg-img {
+  background-image: url('../img/all/bg-all.png');
+  background-color: #08243e;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  padding-bottom: 30px;
+}
+
+.bg-img-register {
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  padding-bottom: 30px;
+}
+
+.responsive {
+  width: 80%;
+  height: auto;
+}
+
+.dark-blue {
+  background-color: #1c2329;
+}
+
+.dark-red {
+  background-color: #1c0205;
+}
+
+.bg-lred {
+  background-color: #42030A;
+}
+
+/* background-color: #181A1E; */
+.bg-yellow {
+  background-color: #ffc900;
+}
+
+.black-color {
+  background-color: black;
+}
+
+.dark-footer {
+  background-color: #140103;
+}
+
+.yellow-footer {
+  background-color: #FFD101;
+  height: 50px;
+}
+
+.blue-footer {
+  background-color: #08243e;
+  height: 50px;
+}
+
+.bg-page-dark {
+  background-color: #050201;
+}
+
+.bg-inherit {
+  background: inherit;
+}
+
+.m-input {
+  margin-top: -15px;
+}
+
+.ml-custom {
+  margin-left: 1px;
+}
+
+.mt-upload {
+  margin-top: 33px;
+}
+
+.p-alert {
+  padding-top: 80px;
+}
+
+.hdiv-100 {
+  height: 800px;
+}
+
+ul.circle {
+  list-style-type: circle;
+}
+
+ul.square {
+  list-style-type: square;
+}
+
+// Small devices (landscape phones, 320px and up)
+@media (min-width: 320px) {
+  .login-button {
+    padding: 5px 20px;
+    height: 25%;
+    font-size: 0.80rem;
+  }
+
+  .register-button {
+    padding: 5px 5px;
+    height: 25%;
+    font-size: 0.80rem;
+  }
+
+  .modal-ml {
+    display: inline-block;
+    width: 100%;
+    height: 54px;
+    background: transparent url('/static/img/banner-mobile-legends-xs.jpg') no-repeat 0 0;
+  }
+
+  .modal-ml:hover {
+    background-position: 0 -54px;
+  }
+
+  .modal-dota {
+    display: inline-block;
+    width: 100%;
+    height: 54px;
+    background: transparent url('/static/img/banner-dota-xs.jpg') no-repeat 0 0;
+  }
+
+  .modal-dota:hover {
+    background-position: 0 -54px;
+  }
+
+  .d-none-lg {
+    display: block;
+  }
+
+  .d-none-md {
+    display: none;
+  }
+
+  .contactus-box-header {
+    background-image: url('/static/img/contactus-header.png');
+    background-size: 100% 100%;
+    margin-top: -75px;
+  }
+
+  .contactus-bg {
+    background-image: url('/static/img/contactus-kotak.png');
+    background-size: 100% 100%;
+  }
+
+  .img-landing {
+    width: 100%;
+  }
+
+  .img-landing-prize {
+    width: 100%;
+  }
+
+  .news-w {
+    width: 100%;
+  }
+
+  .contacth-w {
+    width: 60%;
+    padding-top: 50px;
+  }
+
+  .contactus-w {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .contactus-p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .contactus-pt {
+    padding-top: 20px;
+  }
+
+  .register-w {
+    width: 100%;
+  }
+
+  .terms-width {
+    width: 100%;
+  }
+
+  .terms-p {
+    padding: 15px;
+  }
+
+  .participants-p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .pagination-w {
+    width: 35%;
+  }
+
+  .w-hr {
+    width: 100%
+  }
+
+  .button-center {
+    padding-top: 15px;
+  }
+
+  .text-button {
+    font-size: 8.5px;
+  }
+
+  .button-size {
+    width: 45%;
+  }
+
+  .button-size-lg {
+    width: 92%;
+  }
+
+  .button-100 {
+    width: 100%;
+  }
+
+  .button-closeregist {
+    width: 80%
+  }
+
+  .text-sponsor {
+    font-size: 11px;
+  }
+
+  .text-sponsor-sm {
+    font-size: 6px;
+  }
+
+  .float-button {
+    z-index: 999;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    text-align: center;
+  }
+
+  .gallery-props {
+    width: 240px;
+    height: 160px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  // .desktop-hidden{
+  //   display:inline;
+  // }
+  // .mobile-hidden{
+  //   display:none;
+  // }
+  .p-alert {
+    padding-top: 0px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 450px) {
+  .login-button {
+    padding: 10px 80px;
+    font-size: 0.80rem;
+  }
+
+  .register-button {
+    padding: 10px 65px;
+    font-size: 0.80rem;
+  }
+
+  .modal-ml {
+    display: inline-block;
+    width: 95%;
+    height: 72px;
+    background: transparent url('/static/img/banner-mobile-legends-sm.jpg') no-repeat 0 0;
+  }
+
+  .modal-ml:hover {
+    background-position: 0 -72px;
+  }
+
+  .modal-dota {
+    display: inline-block;
+    width: 95%;
+    height: 72px;
+    background: transparent url('/static/img/banner-dota-sm.jpg') no-repeat 0 0;
+  }
+
+  .modal-dota:hover {
+    background-position: 0 -72px;
+  }
+
+  .d-none-lg {
+    display: block;
+  }
+
+  .d-none-md {
+    display: none;
+  }
+
+  .contactus-box-header {
+    background-image: url('/static/img/contactus-header.png');
+    background-size: 100% 100%;
+    margin-top: -75px;
+  }
+
+  .contactus-bg {
+    background-image: url('/static/img/contactus-kotak.png');
+    background-size: 100% 100%;
+  }
+
+  .img-landing {
+    width: 100%;
+  }
+
+  .img-landing-prize {
+    width: 100%;
+  }
+
+  .news-w {
+    width: 95%;
+  }
+
+  .contacth-w {
+    width: 60%;
+    padding-top: 50px;
+  }
+
+  .contactus-w {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .contactus-p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .contactus-pt {
+    padding-top: 20px;
+  }
+
+  .register-w {
+    width: 100%;
+  }
+
+  .terms-width {
+    width: 100%;
+  }
+
+  .terms-p {
+    padding: 15px;
+  }
+
+  .participants-p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .pagination-w {
+    width: 20%;
+  }
+
+  .w-hr {
+    width: 100%
+  }
+
+  .text-button {
+    font-size: 13px;
+  }
+
+  .button-size {
+    width: 45%;
+  }
+
+  .button-size-lg {
+    width: 92%;
+  }
+
+  .button-100 {
+    width: 100%;
+  }
+
+  .button-closeregist {
+    width: 80%
+  }
+
+  .text-sponsor {
+    font-size: 12px;
+  }
+
+  .text-sponsor-sm {
+    font-size: 6px;
+  }
+
+  .float-button {
+    z-index: 999;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 220px;
+    right: 10px;
+    text-align: center;
+  }
+
+  .gallery-props {
+    width: 180px;
+    height: 120px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  // .desktop-hidden{
+  //   display:inline;
+  // }
+  // .mobile-hidden{
+  //   display:none;
+  // }
+  .p-alert {
+    padding-top: 0px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .login-button {
+    padding: 10px 65px;
+    font-size: 1rem;
+  }
+
+  .register-button {
+    padding: 10px 50px;
+    font-size: 1rem;
+  }
+
+  .modal-ml {
+    display: inline-block;
+    width: 85%;
+    height: 72px;
+    background: transparent url('/static/img/banner-mobile-legends-sm.jpg') no-repeat 0 0;
+  }
+
+  .modal-ml:hover {
+    background-position: 0 -72px;
+  }
+
+  .modal-dota {
+    display: inline-block;
+    width: 85%;
+    height: 72px;
+    background: transparent url('/static/img/banner-dota-sm.jpg') no-repeat 0 0;
+  }
+
+  .modal-dota:hover {
+    background-position: 0 -72px;
+  }
+
+  .d-none-lg {
+    display: block;
+  }
+
+  .d-none-md {
+    display: none;
+  }
+
+  .contactus-box-header {
+    background-image: url('/static/img/contactus-header.png');
+    background-size: 100% 100%;
+    margin-top: -75px;
+  }
+
+  .contactus-bg {
+    background-image: url('/static/img/contactus-kotak.png');
+    background-size: 100% 100%;
+  }
+
+  .img-landing {
+    width: 90%;
+  }
+
+  .img-landing-prize {
+    width: 100%;
+  }
+
+  .news-w {
+    width: 90%;
+  }
+
+  .contacth-w {
+    width: 50%;
+  }
+
+  .contactus-w {
+    width: 90%;
+  }
+
+  .contactus-p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .register-w {
+    width: 100%;
+  }
+
+  .terms-width {
+    width: 90%;
+  }
+
+  .terms-p {
+    padding: 20px;
+  }
+
+  .participants-p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pagination-w {
+    width: 15%;
+  }
+
+  .w-hr {
+    width: 100%
+  }
+
+  .text-button {
+    font-size: 14px;
+  }
+
+  .button-size {
+    width: 30%;
+  }
+
+  .button-size-lg {
+    width: 62%;
+  }
+
+  .button-100 {
+    width: 100%;
+  }
+
+  .button-closeregist {
+    width: 80%
+  }
+
+  .text-sponsor {
+    font-size: 12px;
+  }
+
+  .text-sponsor-sm {
+    font-size: 12px;
+  }
+
+  .float-button {
+    z-index: 999;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 240px;
+    right: 10px;
+    text-align: center;
+  }
+
+  .gallery-props {
+    width: 140px;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  // .desktop-hidden{
+  //   display:none;
+  // }
+
+  // .mobile-hidden{
+  //   display:inline;
+  // }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .modal-ml {
+    display: inline-block;
+    width: 85%;
+    height: 72px;
+    background: transparent url('/static/img/banner-mobile-legends-sm.jpg') no-repeat 0 0;
+  }
+
+  .modal-ml:hover {
+    background-position: 0 -72px;
+  }
+
+  .modal-dota {
+    display: inline-block;
+    width: 85%;
+    height: 72px;
+    background: transparent url('/static/img/banner-dota-sm.jpg') no-repeat 0 0;
+  }
+
+  .modal-dota:hover {
+    background-position: 0 -72px;
+  }
+
+  .d-none-lg {
+    display: block;
+  }
+
+  .d-none-md {
+    display: none;
+  }
+
+  .contactus-box-header {
+    background-image: url('/static/img/contactus-header.png');
+    background-size: 100% 100%;
+    margin-top: -75px;
+  }
+
+  .contactus-bg {
+    background-image: url('/static/img/contactus-kotak.png');
+    background-size: 100% 100%;
+  }
+
+  .img-landing {
+    width: 70%;
+  }
+
+  .img-landing-prize {
+    width: 90%;
+  }
+
+  .news-w {
+    width: 70%;
+  }
+
+  .contacth-w {
+    width: 50%;
+  }
+
+  .contactus-w {
+    width: 70%;
+  }
+
+  .contactus-p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .register-w {
+    width: 95%;
+  }
+
+  .terms-width {
+    width: 70%;
+  }
+
+  .terms-p {
+    padding: 30px;
+  }
+
+  .participants-p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .pagination-w {
+    width: 15%;
+  }
+
+  .w-hr {
+    width: 70%
+  }
+
+  .text-button {
+    font-size: 16px;
+  }
+
+  .button-size {
+    width: 25%;
+  }
+
+  .button-size-lg {
+    width: 52%;
+  }
+
+  .button-100 {
+    width: 50%;
+  }
+
+  .button-closeregist {
+    width: 40%
+  }
+
+  .text-sponsor {
+    font-size: 12px;
+  }
+
+  .text-sponsor-sm {
+    font-size: 12px;
+  }
+
+  .float-button {
+    z-index: 999;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 260px;
+    right: 10px;
+    text-align: center;
+  }
+
+  .gallery-props {
+    width: 140px;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1264px) {
+  .modal-ml {
+    display: inline-block;
+    width: 75%;
+    height: 105px;
+    background: transparent url('/static/img/banner-mobile-legends.jpg') no-repeat 0 0;
+  }
+
+  .modal-ml:hover {
+    background-position: 0 -105px;
+  }
+
+  .modal-dota {
+    display: inline-block;
+    width: 75%;
+    height: 105px;
+    background: transparent url('/static/img/banner-dota.jpg') no-repeat 0 0;
+  }
+
+  .modal-dota:hover {
+    background-position: 0 -105px;
+  }
+
+  .d-none-lg {
+    display: none;
+  }
+
+  .d-none-md {
+    display: block;
+  }
+
+  .contactus-box-header {
+    background-image: url('/static/img/contactus-header.png');
+    background-size: 100% 100%;
+    margin-top: -70px;
+  }
+
+  .contactus-bg {
+    background-image: url('/static/img/contactus-kotak.png');
+    background-size: 100% 100%;
+  }
+
+  .img-landing {
+    width: 60%;
+  }
+
+  .img-landing-prize {
+    width: 80%;
+  }
+
+  .news-w {
+    width: 50%;
+  }
+
+  .contacth-w {
+    width: 50%;
+  }
+
+  .contactus-w {
+    width: 60%;
+  }
+
+  .contactus-p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .register-w {
+    width: 80%;
+  }
+
+  .terms-width {
+    width: 70%;
+  }
+
+  .terms-p {
+    padding: 25px;
+  }
+
+  .participants-p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .pagination-w {
+    width: 15%;
+  }
+
+  .w-hr {
+    width: 57%
+  }
+
+  .text-button {
+    font-size: 16px;
+  }
+
+  .button-size {
+    width: 20%;
+  }
+
+  .button-size-lg {
+    width: 41%;
+  }
+
+  .button-100 {
+    width: 50%;
+  }
+
+  .button-closeregist {
+    width: 40%
+  }
+
+  .text-sponsor {
+    font-size: 12px;
+  }
+
+  .text-sponsor-sm {
+    font-size: 12px;
+  }
+
+  .float-button {
+    z-index: 999;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 280px;
+    right: 10px;
+    text-align: center;
+  }
+
+  .gallery-props {
+    width: 150px;
+    height: 90px;
+    margin: 5px 5px 5px 5px;
+  }
+}
+
+// Extra large devices (large desktops, 1600px and up)
+@media (min-width: 1600px) {
+  .modal-ml {
+    display: inline-block;
+    width: 75%;
+    height: 105px;
+    background: transparent url('/static/img/banner-mobile-legends.jpg') no-repeat 0 0;
+  }
+
+  .modal-ml:hover {
+    background-position: 0 -105px;
+  }
+
+  .modal-dota {
+    display: inline-block;
+    width: 75%;
+    height: 105px;
+    background: transparent url('/static/img/banner-dota.jpg') no-repeat 0 0;
+  }
+
+  .modal-dota:hover {
+    background-position: 0 -105px;
+  }
+
+  .d-none-lg {
+    display: none;
+  }
+
+  .d-none-md {
+    display: block;
+  }
+
+  .p-tab {
+    padding-left: 165px;
+    padding-right: 100px;
+  }
+
+  .contactus-box-header {
+    background-image: url('/static/img/contactus-header.png');
+    background-size: 100% 100%;
+    margin-top: -70px;
+  }
+
+  .contactus-bg {
+    background-image: url('/static/img/contactus-kotak.png');
+    background-size: 100% 100%;
+  }
+
+  .img-landing {
+    width: 60%;
+  }
+
+  .img-landing-prize {
+    width: 80%;
+  }
+
+  .news-w {
+    width: 40%;
+  }
+
+  .contacth-w {
+    width: 40%;
+  }
+
+  .contactus-w {
+    width: 50%;
+  }
+
+  .contactus-p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .register-w {
+    width: 80%;
+  }
+
+  .terms-width {
+    width: 60%;
+  }
+
+  .terms-p {
+    padding: 50px;
+  }
+
+  .participants-p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .pagination-w {
+    width: 12%;
+  }
+
+  .w-hr {
+    width: 57%
+  }
+
+  .text-button {
+    font-size: 22px;
+  }
+
+  .button-size {
+    width: 20%;
+  }
+
+  .button-size-lg {
+    width: 41%;
+  }
+
+  .button-100 {
+    width: 50%;
+  }
+
+  .button-closeregist {
+    width: 30%
+  }
+
+  .text-sponsor {
+    font-size: 12px;
+  }
+
+  .text-sponsor-sm {
+    font-size: 12px;
+  }
+
+  .float-button {
+    z-index: 999;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 300px;
+    right: 10px;
+    text-align: center;
+  }
+
+  .gallery-props {
+    width: 200px;
+    height: 140px;
+    margin: 5px 5px 5px 5px;
+  }
+}
+
+.home-nav-logo {
+  position: absolute;
+}
+
+.home-nav-p {
+  margin-left: -10px;
+  margin-top: -60px;
+}
+
+.mb-min {
+  margin-bottom: -15px;
+}
+
+.text-truncate {
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yamisok-text-color,
+.text-yellow {
+  color: #ffc900;
+}
+
+.text-blue{
+  color: #1b90bc;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: #828282 !important;
+}
+
+.text-gray2 {
+  color: #d8d8d8 !important;
+}
+
+.text-10 {
+  font-size: 10px;
+}
+
+.text-11 {
+  font-size: 11px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-13 {
+  font-size: 13px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-22 {
+  font-size: 22px;
+}
+
+.text-24 {
+  font-size: 24px;
+}
+
+.text-26 {
+  font-size: 26px;
+}
+
+.text-28 {
+  font-size: 28px;
+}
+
+.text-30 {
+  font-size: 30px;
+}
+
+.text-40 {
+  font-size: 40px;
+}
+
+.text-50 {
+  font-size: 50px;
+}
+
+.text-60 {
+  font-size: 60px;
+}
+
+img {
+  &.fit {
+    object-fit: cover;
+  }
+}
+
+.table-separate {
+  border-collapse: separate;
+}
+
+.titillium {
+  font-family: 'Titillium Web';
+}
+
+.oswald {
+  font-family: 'Oswald'
+}
+
+.lightest-bold {
+  font-weight: 500;
+}
+
+.lighter-bold {
+  font-weight: 510;
+}
+
+.light-bold {
+  font-weight: 550;
+}
+
+.boldest-bold {
+  font-weight: 580;
+}
+
+.img-top {
+  vertical-align: text-top;
+}
+
+.img-baseline {
+  vertical-align: baseline;
+}
+
+///////////////////////////////////
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.border-gray {
+  border: 1px solid #828282;
+}
+
+.border-red {
+  border: 1px solid #c6232e;
+}
+
+.border-black {
+  border: 1px solid black !important;
+  border-radius: 5px;
+  box-shadow: 1px 1px #000000;
+}
+
+.border-transparent {
+  border: 1px solid transparent !important;
+  border-radius: 5px;
+}
+
+.border-yellow {
+  background-image: linear-gradient(yellow, orange);
+  border: 1px solid transparent !important;
+  border-radius: 5px;
+  box-shadow: 2px 2px #914300;
+}
+
+.loader-icon {
+  max-width: 128px;
+  height: 128px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+// ------------------------------- ICAFE STYLING -------------------------------
+
+.size-10 {
+  font-size: 10px;
+}
+
+.size-11 {
+  font-size: 11px;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-13- {
+  font-size: 13px;
+}
+
+.size-13 {
+  font-size: 13.5px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-15 {
+  font-size: 15px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-24 {
+  font-size: 24px;
+}
+
+.text-gray {
+  color: #484647 !important;
+}
+
+.font-gray {
+  color: #686868 !important;
+}
+
+///////////////////////////////////
+
+.black-bg {
+  background-color: #022e57;
+  height: auto;
+}
